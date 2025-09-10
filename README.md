@@ -1,50 +1,70 @@
-# Welcome to your Expo app 👋
-
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# Welcome to Earthquake Assistant App 👋
+- A Turkish disaster preparedness and emergency assistance app. It provides lifesaving information, assembly area guidance, and personalized assistance during and after an earthquake. Powered by the GPT OSS 120B model, it includes AI-powered recommendations and personalized planning features.
 
 ## Get started
+1. Clone Repo
+   ```bash
+   git clone <repository-url>
+   ```
 
-1. Install dependencies
+2. Install dependencies
 
    ```bash
    npm install
    ```
-
-2. Start the app
+3. Add HuggingFace Token
+   ```
+   // utils/ai.ts
+   const HF_ACCESS_TOKEN = "YOUR_HUGGINGFACE_TOKEN_HERE";
+   ```
+4. Start the app
 
    ```bash
    npx expo start
    ```
+5. Scan QR Code
 
-In the output, you'll find options to open the app in a
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 📱 Usage
+- Home Screen: Access all features
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- During an Earthquake Screen: Instant recommendations based on your location
 
-## Get a fresh project
+- Assembly Areas Screen: View nearby safe areas
 
-When you're ready, run:
+- Injuries Screen: First aid and emergency response guide
 
-```bash
-npm run reset-project
-```
+- Needs Planning Screen: Personalized earthquake bag list
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+- Chat Screen: AI-powered emergency assistant
 
-## Learn more
+- Simulation Mode Screen: Scenario-based training mode
 
-To learn more about developing your project with Expo, look at the following resources:
+## 🧠 GPT OSS 120B Integration
+- The application utilizes the GPT OSS 120B model in the following areas:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- Instruction: Situation-specific step-by-step instructions and emergency protocols
 
-## Join the community
+- Customizable Plans: Earthquake preparedness plans tailored to the user's specific needs
 
-Join our community of developers creating universal apps.
+- Simulation Creation: Personalized action plans for realistic scenarios
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- Chat and Consulting: Intelligent chat and recommendation system with natural language processing
+
+## 🛠 Technologies
+- React Native
+
+- Expo
+
+- TypeScript
+
+- HuggingFace AI API
+
+- React Navigation
+
+- Expo Linear Gradient
+
+- Vector Icons
+
+## Youtube Link -> https://youtu.be/x-9dS8rt7fw
+
